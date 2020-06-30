@@ -1,4 +1,7 @@
 <keymap version="1" name="Visual Studio OSX copy" parent="Visual Studio OSX">
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="meta open_bracket" />
+  </action>
   <action id="ChangesView.Diff" />
   <action id="ChooseDebugConfiguration">
     <keyboard-shortcut first-keystroke="meta enter" />
@@ -30,14 +33,19 @@
   <action id="EditorDuplicateLines">
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
+  <action id="EditorMatchBrace" />
   <action id="EditorStartNewLineBefore" />
   <action id="FileChooser.GotoDesktop" />
   <action id="FileStructurePopup" />
   <action id="FileStructurePopupNew" />
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="meta close_bracket" />
+  </action>
   <action id="GotoImplementation" />
   <action id="Images.Editor.ActualSize">
     <keyboard-shortcut first-keystroke="meta divide" />
   </action>
+  <action id="ReSharperGotoContainingDeclaration" />
   <action id="ReSharperGotoImplementation">
     <keyboard-shortcut first-keystroke="meta d" />
   </action>
