@@ -53,6 +53,9 @@
   </action>
   <action id="MoveStatementDown" />
   <action id="MoveStatementUp" />
+  <action id="RdOverloadsNavigationAction">
+    <keyboard-shortcut first-keystroke="shift meta o" />
+  </action>
   <action id="ReSharperGotoContainingDeclaration" />
   <action id="ReSharperGotoImplementation">
     <keyboard-shortcut first-keystroke="meta d" />
